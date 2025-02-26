@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+
+}
+.Container{
+   
+background-color: black;
+width: 100%;
+min-height: 100vh;
+
+}
+header {
+   
+display: flex;
+justify-content:center;
+align-items: center;
+
+padding: 20px;
+
+
+}
+header ul {
+display: flex;
+width: 50%;
+
+justify-content:space-around;
+align-items: center;
+
+}
+
+.Container ul li a{
+
+padding: 10px 15px;
+color: white;
+
+list-style-type: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
+ul li a:hover,.Product{
+   color: white; 
+   background-color: rgb(24, 180, 76);
+  
+   font-weight: bold;
+  
+    
+   
+}
+.Logo{
+width: 40px;
+
+}
+
+
+section{
+display: flex;
+justify-content:center;
+
+align-items: center;
+flex-wrap: wrap;
+
+}
+section  .Content{
+    margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+
+
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+
+max-height: 300px;
+max-width: 400px;
+min-height: 300px;
+min-width: 400px;
+}
+section  .Content h2{
+color: white;
+width: 40%;
+height: 40%;
+margin: auto;
+text-transform: uppercase;
+font-size: 35px;
+padding-left: 100px;
+}
+section  .Content p{
+padding-left: 100px;
+    color: white;
+    height: 40%;
+
+}
+section  .Content a{
+   color: black;
+   background-color: white;
+   padding: 10px 15px;
+   height: 20%;
+   border-radius: 20px;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-left: 100px;
+    }
+    a{
+text-decoration: none;
+
+
+
+    }
+    section img{
+       width: 500px;
+       height: 500px;
+    }
+
+
+    footer{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+flex-wrap: wrap;
+    }
+    footer img{
+width: 100px;
+
+
+
+
+    }
+footer img:hover{
+
+transform: scale(1.1);
+
+
+}  
+section  .Content a:hover{
+
+background-color: cadetblue;
+}
+
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+  
+ 
+ 
+header{
+
+
+    width: 100%;
+    
+    }
+     header ul{
+        display: flex;
+    background-color:chocolate;
+    color:#29a7a0;
+        align-items: center;
+        height: 40px;
+        overflow: hidden;
+      
+      width: 100%;
+     }
+     header ul li{
+    margin-right: 30px;
+    width: auto;
+    
+     }
+     header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+     }
+     header ul li a:hover,.Active{
+    
+        background-color: white;
+        color:#200016;
+     }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+       color: white; 
+    }
+
+    section {
+display: flex;
+
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+    }
+    section div{
+ 
+display: flex;
+
+flex-direction: column;
+margin:60px 70px;
+background-color: rgb(37, 40, 224);
+align-items: center;
+justify-content: center;
+width: 500px;
+height: 500px;
+border-radius: 30px;
+max-width: 400px;
+    }
+    section div:hover{
+     background-color: brown;
+     transform: scale(1.1);
+            }
+    section div h1{
+font-size: 30px;
+color: rgb(8, 206, 255);
+margin-bottom: 20px;
+
+    }
+    section div h2{
+        padding: 20px;
+        width: 300px;
+max-height: 100px;
+color: rgb(255, 255, 255);
+
+    }
+body{
+    background-repeat: no-repeat;
+
+    background-image: url(Phone/Background.webp);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+
+}
